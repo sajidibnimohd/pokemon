@@ -1,0 +1,14 @@
+.search-bar {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+  }
+  
+  .search-bar input,
+  .search-bar select {
+    padding: 8px;
+    border-radius: 8px;
+    border: 2px solid #e8d9d9;
+  }
+  

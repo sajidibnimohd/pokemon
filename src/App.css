@@ -1,0 +1,47 @@
+/* App.css */
+
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  background-color:#4919ae; /* Light background, no black */
+  font-family: 'Arial', sans-serif;
+}
+
+.App {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #4919ae; /* Same light background */
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Adjust other components */
+header {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+header h1 {
+  color: #4CAF50; /* You can change this to any color you like */
+  font-size: 48px;
+  font-weight: bold;
+}
+
+
+.pokemon-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.no-results {
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
